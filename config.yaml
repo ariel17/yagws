@@ -1,3 +1,6 @@
 ---
-server_name:
-  port: 8080
+port: 8080
+server_path: /
+static_content:
+  root_path: /tmp
+  index_name: index.html
